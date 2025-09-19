@@ -151,7 +151,7 @@ interface SensitiveTextInputOption {
 |--------|------|------|------|
 | `modeValue` | `SensitiveWordMode` | 是 | 敏感词检测模式 |
 | `replaceMode` | `ReplaceMode` | 是 | 敏感词替换模式 |
-| `replaceStr` | `string` | 否 | 自定义替换字符串（仅在ReplaceMode.CUSTOM时生效） |
+| `replaceStr` | `string` | 否 | 自定义替换字符串（仅在ReplaceMode.SYMBOLS时生效） |
 | `placeholderValue` | `string` | 是 | 输入框提示文本 |
 | `textValue` | `string` | 是 | 输入框初始文本 |
 | `fontSizeValue` | `number` | 是 | 字体大小 |
@@ -164,6 +164,7 @@ interface SensitiveTextInputOption {
 | `customize` | `SensitiveCustomize` | 否 | 自定义敏感词配置 |
 
 > ⚠️ **重要说明**：`autoValue` 参数只有在 `multlineValue` 为 `true` 时才会生效。当 `multlineValue` 为 `false` 时，即使 `autoValue` 设置为 `true`，也不会启用自动扩展功能。
+> ⚠️ **重要说明**：`replaceStr` 参数只有在 `replaceMode` 为 `ReplaceMode.SYMBOLS` 时才会生效。当 `replaceMode` 为 `ReplaceMode.SYMBOLS` 时，即使 `replaceStr` 设置为任何数值的时候，都不会替换成 `replaceStr`。
 
 ### SensitiveWordMode枚举
 
