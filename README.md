@@ -6,7 +6,7 @@
 [![HarmonyOS](https://img.shields.io/badge/HarmonyOS-0052CC?style=flat-square&logo=harmony&logoColor=white)](https://www.harmonyos.com/)
 [![HarmonyOS](https://img.shields.io/badge/OpenHarmonyOS-0052CC?style=flat-square&logo=harmony&logoColor=white)](https://www.harmonyos.com/)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
-![GitHub Release](https://img.shields.io/github/v/release/trueWangSyutung/Sensitive-Word-Blocking-Module-For-OHOS)
+[![GitHub Release](https://img.shields.io/github/v/release/trueWangSyutung/Sensitive-Word-Blocking-Module-For-OHOS)](https://github.com/trueWangSyutung/Sensitive-Word-Blocking-Module-For-OHOS)
 
 ## 目录
 
